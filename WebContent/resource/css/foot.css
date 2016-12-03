@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+
+
+#footer-wrapper{
+       background: #000;
+        
+        min-width: 940px;
+    height: 110px;
+    padding-top:10px;
+   margin-top: 180px;
+  
+}
+#footer{
+   position: relative;
+   background: #000;
+    
+    margin-left:98px;
+    margin-right:98px;
+}
+#footer .logo-footer{
+   float: left;
+    padding-right: 30px;
+}
+
+#img1{
+   vertical-align: middle;
+   border: 0;
+   width:51px;
+   height:53px;
+}
+#img2{
+   width:27px;
+   height:28px;
+}
+#img3{
+   width:27px;
+   height:28px;
+}
+.blind{
+   width:186px;
+   display: block;
+    overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    left: 0;
+}
+#footer .sub-menu{
+   padding-right: 20px;
+   
+}
+#footer .sub-menu li {
+   padding-left:10px;
+}
+
+#footer .sub-menu a{
+   font-size:11px;
+   font-family:'Tahoma';
+   color:#fff500;
+}
+#footer .utill-menu {
+    border-radius: 4px;
+}
+#footer .utill-menu li:first-child {
+    padding-left: 0px;
+}
+#footer .utill-menu > li {
+    display: inline-block;
+    padding-right: 3px;
+}
+#footer-menu li a {
+    font-family: 'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+    font-size: 11px;
+    font-weight: 600;
+    color: #D5D5D5;
+}
+
+#footer address li, #footer address a {
+    font-family: 'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+    font-size: 11px;
+    font-weight: 400;
+    color: #D5D5D5;
+}
+#footer .copyright {
+    font-size: 11px;
+    color: #AAA;
+}

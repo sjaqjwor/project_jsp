@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+#intergMemContent{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	font-family:'맑은 고딕','MalgunGothic';
+	color:#454545;
+	font-size:13px;
+	word-break:break-all;
+}
+
+#loginArea{
+	max-width:960px;
+	margin:0 auto 110px;
+	font-size:15px;
+	color:#7b7b7b;
+	line-height:25px;
+}
+
+#loginArea > .inner{
+	padding:30px 60px;
+	margin-top:50px;
+}
+
+#loginArea  .lft_group{
+	min-height:10px;
+	position:relative;
+	width: 45%;
+    padding-right: 6%;
+    float: left;
+}
+
+#loginArea .rgh_group{
+	min-height:10px;
+	position:relative;
+	width:42%;
+	float:right;
+}
+
+#loginArea .title2{
+	font-size:22px;
+	color:#272727;
+	margin-bottom:35px;
+	font-weight:700;
+}
+
+#loginArea >h2{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	font-family:'맑은 고딕','MalgunGothic';
+	word-break:break-all;
+}
+
+#loginArea >p{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	font-family:'맑은 고딕','MalgunGothic';
+	color:#454545;
+	font-size:13px;
+	word-break:break-all;
+}
+
+#loginArea .1ft_group p.id,
+#loginArea .1ft_group p.pw{
+	position:relative;
+	margin-bottom:10px;
+}
+
+.btn01 , .btn02{
+	position:relative;
+	z-index:99;
+	display:inline-block;
+	height:25px;
+	line-height:22px;
+	padding: 0 14px;
+	font-size:12px;
+	text-align:center;
+	color:#000000!important;
+	border:1px solid #04669e;
+}
+ 
+.btn-warning{
+	color:#000000;
+	background:#ffe400;
+}
+
+.btn-warning > a{
+	color:#000000;
+}
+
+.btn-warning :hover{
+	background-color:#ffe400 !important;
+}
+
+.btn :hover{
+	background-color:#ffe400;
+}
+#image{
+	width:500px !important; 
+	height:200px !important;
+}

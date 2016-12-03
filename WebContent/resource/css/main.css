@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body{
+   font-family: 'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+    font-size: 14px;
+    color: #333;
+    height: 100%;
+    min-height:100%;
+    background-position: 50% 0;
+    margin-top:30px;
+}
+address {
+    margin: 0;
+}
+a{
+   cursor:pointer;
+}
+#wrapper{
+   min-width: 940px;
+    
+ 
+}
+#back1{
+   width:900px;
+   height:400px;
+   margin-left:60px;
+   
+}
+#wrap{
+   background: url(../images/main.jpg);
+   width:1900px;
+    min-width: 940px;
+    height:800px;
+   
+}
+#header{
+   z-index: 100;
+    width: 100%;
+}
+#header h1{
+   width:248px;
+   height:50px;
+   cursor:pointer;
+   display:inline-block;
+   margin-top:70px;
+   margin-left:200px;
+}
+#nav{
+      float:right;
+    right: 0;
+    top: 52px;
+    width: 207px;
+    background: #000;
+    padding: 25px 20px 25px 30px;
+    margin:0px;
+}
+#nav li{
+   padding : 10px;
+}
+#nav li a{
+   font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+
+}
+#top{
+   float:left;
+   width:280px;
+   padding-left:0px;
+   float:right;
+   
+   
+}
+#top li {
+   padding-right:0;
+}
+#top li a {
+   display:inline-block;
+   float:left;
+   font-family:'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+   font-size:12px;
+   font-weight:600;
+   color:white;
+   text-align:center;
+   padding:18px 8px 16px 8px;;
+   margin-right:5px;
+}
+#top li a:first-child{
+   margin-left:15px;
+}
+
+.line{
+   margin-left:-5px;
+   
+}
+.line>li{
+   display: inline-block;
+   padding-right:5px;
+
+}
+
+ul,ol,li{
+   list-style :none;
+}
+ul{
+   padding: 0;
+    margin: 0;
+}
+h1,h2{
+   margin:0;
+   padding:0;
+   font-family:'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+   font-weight:800;
+}
+h2{
+   font-size:30px;
+}
+
+a{
+   text-decoration:none;
+}
+#imgae{
+   padding-top:150px;
+   padding-left:250px
+}
+ #content {
+    width: 1010px;
+    height: 100%;
+    min-height: 600px;
+};
+}
+#tong {
+    margin-left: -5px;
+    width: 477px;
+    height: 667px;
+    z-index: 100;
+  
+}
+.pull-left{
+   float:left !important;
+}
+#a1,#a2,#a3,#a4,#a5{
+   cursor:pointer;
+}
+.right{
+   float:right !important ;
+   
+   
+}
+#top1{
+   float:left;
+   width:300px;
+   padding-left:0px;
+   float:right;
+   height:15px;
+   
+   
+}
+#top1 tr{
+   display:inline-block;
+   float:left;
+   font-family:'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+   font-size:13px;
+   font-weight:600;
+   color:white;
+   text-align:center;
+   padding-top:14px;
+   padding-bottom:13px;
+}
+#top1 #tr1 td{
+   width:150px;
+   padding-bottom:10px;
+ 
+}
+
+#top1 tr a {
+   display:inline-block;
+   float:center;
+   font-family:'Nanum Gothic', '나눔고딕', 'Apple Gothic', 'Dotum', '돋움';
+   font-size:13px;
+   font-weight:600;
+   color:white;
+   text-align:center;
+   
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#a7{
+   cursor:pointer;
+}
